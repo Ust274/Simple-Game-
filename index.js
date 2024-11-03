@@ -69,7 +69,7 @@ function isCorrect()
         j.classList.add("wrong")
         j.innerText = "Wrong";
     }
-    if(questions<=10){
+    if(questions<10){
         generateQuestions();
         setTimeout(() => {
             btn1.classList.remove("correct","wrong")
